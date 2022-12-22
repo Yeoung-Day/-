@@ -1,0 +1,217 @@
+* {
+    /*  브라우저가 가지고 있는 기본 margin과 padding 제거 */
+    margin: 0;
+    padding: 0;
+}
+
+/* div wrap all의 스타일 지정 */
+.wrap-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Te {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: darkblue;
+    background-color: rgb(248, 197, 135);
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    border: 2.5px solid 3b5998;
+}
+
+.play-time {
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #3b5998;
+}
+
+ul {
+    margin-top: 1rem;
+    list-style: none;
+    border: 2px solid #3b5998;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+li1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N1.png");
+
+}
+li2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N2.png");
+
+}
+li3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N3.png");
+
+}
+li4 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N4.png");
+
+}
+li5 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N4.png");
+
+}
+li6 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N6.png");
+
+}
+li7 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    color: #fff;
+    background: url("image/N7.png");
+
+}
+
+.start-button {
+    background: #3b5998;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    /* margin-top: 1rem; */
+    margin: center;
+}
+
+.game-text {
+    position: unset;
+    font-size: 45px;
+    color: navy;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    display: none;
+}
+
+.scoreTitle {
+    position: unset;
+    font-size: 45px;
+    color: #67c23a;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    display: none;
+}
+
+.score {
+    position: unset;
+    font-size: 45px;
+    text-align: center;
+    color: #67c23a;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    display: none;
+}
+.box {
+    border: 10px solid #67c23a;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 40px;
+    display: none;
+}
+
+.list0 {
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.list1 {
+    background-position-x: -100px;
+    background-position-y: 0px;
+}
+
+.list2 {
+    background-position-x: -200px;
+    background-position-y: 0px;
+}
+
+.list3 {
+    background-position-x: -300px;
+    background-position-y: 0px;
+}
+
+
+/* .list4 {
+    background-position-x: 0px;
+    background-position-y: -100px;
+}
+
+.list5 {
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+
+.list6 {
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+
+.list7 {
+    background-position-x: -300px;
+    background-position-y: -100px;
+}
+
+.list8 {
+    background-position-x: 0px;
+    background-position-y: -200px;
+}
+
+.list9 {
+    background-position-x: -100px;
+    background-position-y: -200px;
+}
+
+.list10 {
+    background-position-x: -200px;
+    background-position-y: -200px;
+}
+
+.list11 {
+    background-position-x: -300px;
+    background-position-y: -200px;
+}
+
+.list12 {
+    background-position-x: 0px;
+    background-position-y: -300px;
+}
+
+.list13 {
+    background-position-x: -100px;
+    background-position-y: -300px;
+}
+
+.list14 {
+    background-position-x: -200px;
+    background-position-y: -300px;
+}
+
+.list15 {
+    background-position-x: -300px;
+    background-position-y: -300px;
+} */
